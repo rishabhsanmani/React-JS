@@ -15,6 +15,11 @@ function App(){
       <h1>Hello this is App page</h1>
 
       <h1 className="app">Hello this is App page</h1>
+
+
+      <img src="favicon.svg" alt="" />
+
+
       
       <br />
       name <br />
