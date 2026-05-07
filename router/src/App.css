@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    /* justify-items: center; */
+    align-items: center;
+    height: 10vh;
+}
+
+li{
+    list-style: none;
+    
+}
+
+ul{
+    display: flex;
+    gap: 60px;
+    font-weight: bold;
+}
+
+.homee{
+    text-decoration: none;
+    color: black;
+}
+
+.btn1{
+    text-decoration: none;
+    color: black;
+}
+
+.btn2{
+    text-decoration: none;
+    color: black;
+}
