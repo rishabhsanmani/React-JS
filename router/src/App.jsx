@@ -4,16 +4,20 @@ import About from "./About"
 import Contact from "./Contact"
 import Navbar from "./Navbar"
 import './App.css'
+import Structure from "./Structure"
+
 
 function App(){
   return(
     <>
-    <Navbar />
-      <h1>App Page</h1>
+    
+      {/* <h1>App Page</h1> */}
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Structure />}>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
       </Routes>
     </>
   )
